@@ -1,5 +1,5 @@
 msgid "OpenVPN Server"
-msgstr "OpenVPN 服务器"
+msgstr "OPN 隧道"
 
 msgid "An easy config OpenVPN Server Web-UI"
 msgstr "易于使用的 OpenVPN 服务器 Web-UI"

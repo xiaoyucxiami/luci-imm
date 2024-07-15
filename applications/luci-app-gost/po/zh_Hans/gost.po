@@ -1,5 +1,5 @@
 msgid "Gost"
-msgstr "Gost"
+msgstr "超级隧道"
 
 msgid "A simple security tunnel written in Golang."
 msgstr "GO语言实现的安全隧道。"

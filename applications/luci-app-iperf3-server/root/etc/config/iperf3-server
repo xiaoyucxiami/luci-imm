@@ -1,4 +1,11 @@
 
 config iperf3-server
-	option enable '0'
+	option enable '1'
 	option port '5201'
+	option main_enable '1'
+
+config servers
+	option enable_server '1'
+	option port '5201'
+	option delay '0'
+

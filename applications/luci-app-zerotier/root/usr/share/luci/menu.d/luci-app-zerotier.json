@@ -1,7 +1,7 @@
 {
 	"admin/vpn/zerotier": {
 		"title": "ZeroTier",
-		"order": 90,
+		"order": 30,
 		"action": {
 			"type": "firstchild"
 		},

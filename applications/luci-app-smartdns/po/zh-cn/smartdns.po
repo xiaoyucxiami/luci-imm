@@ -476,7 +476,7 @@ msgid "Skip nameserver rules."
 msgstr "跳过Nameserver规则。"
 
 msgid "SmartDNS"
-msgstr "SmartDNS"
+msgstr "智慧解析"
 
 msgid "SmartDNS Server"
 msgstr "SmartDNS 服务器"

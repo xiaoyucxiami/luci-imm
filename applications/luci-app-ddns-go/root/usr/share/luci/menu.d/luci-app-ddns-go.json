@@ -1,6 +1,7 @@
 {
-	"admin/services/ddns-go": {
+	"admin/network/ddns-go": {
 		"title": "DDNS-Go",
+		"order": 58,
 		"action": {
 			"type": "view",
 			"path": "ddns-go"

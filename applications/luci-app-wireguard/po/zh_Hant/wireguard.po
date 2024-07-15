@@ -96,11 +96,11 @@ msgstr "這部分尚無數值"
 
 #: applications/luci-app-wireguard/root/usr/share/luci/menu.d/luci-app-wireguard.json:3
 msgid "WireGuard"
-msgstr "WireGuard VPN"
+msgstr "虚拟隧道"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:182
 msgid "WireGuard Status"
-msgstr "WireGuard 狀態"
+msgstr "隧道狀態"
 
 #: applications/luci-app-wireguard/luasrc/view/wireguard.htm:223
 msgid ""

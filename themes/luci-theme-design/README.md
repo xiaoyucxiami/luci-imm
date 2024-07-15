@@ -16,7 +16,7 @@
 - 修复兼容部分插件样式
 - 修复aliyundrive-webdav样式
 - 修复vssr在iOS/iPadOS WebApp模式下显示异常
-- 修复openclash插件在iOS/iPadOS WebApp 模式下env(safe-area-inset-bottom) = 0
+- 修复passwall插件在iOS/iPadOS WebApp 模式下env(safe-area-inset-bottom) = 0
 - 优化菜单hover action状态分辨
 - 支持luci-app-wizard向导菜单
 - Update header box-shadow style

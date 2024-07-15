@@ -1,5 +1,5 @@
 msgid "Alist"
-msgstr "Alist 文件列表"
+msgstr "云磐管理"
 
 msgid "Open Web Interface"
 msgstr "打开 Web 界面"

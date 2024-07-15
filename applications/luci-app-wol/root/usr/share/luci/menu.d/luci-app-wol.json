@@ -1,5 +1,5 @@
 {
-	"admin/services/wol": {
+	"admin/network/wol": {
 		"title": "Wake on LAN",
 		"order": 90,
 		"action": {

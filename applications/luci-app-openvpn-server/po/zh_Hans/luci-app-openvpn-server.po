@@ -58,7 +58,7 @@ msgstr "OpenVPN 客户端配置文件"
 
 #: luasrc/controller/openvpn-server.lua:13
 msgid "OpenVPN Server"
-msgstr "OpenVPN 服务器"
+msgstr "OPN 隧道"
 
 #: luasrc/model/cbi/openvpn-server/openvpn-server.lua:20
 msgid "Port"

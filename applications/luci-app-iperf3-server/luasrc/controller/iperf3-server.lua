@@ -5,8 +5,8 @@ function index()
 		return
 	end
 
-	entry({"admin", "services", "iperf3-server"}, cbi("iperf3-server"), _("iPerf3 Server"),99)
-	entry({"admin", "services", "iperf3-server", "status"}, call("act_status")).leaf = true
+	entry({"admin", "network", "iperf3-server"}, cbi("iperf3-server"), _("iPerf3 Server"),80)
+	entry({"admin", "network", "iperf3-server", "status"}, call("act_status")).leaf = true
 end
 
 function act_status()

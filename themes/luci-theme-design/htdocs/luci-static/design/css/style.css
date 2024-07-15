@@ -788,23 +788,35 @@ span[data-indicator="uci-changes"] {
 }
 
 .main .main-left .nav li.slide .menu[data-title="Statistics"]:before {
-	content: "\e604";
+    content: "\e604";
 }
 
 .main .main-left .nav li.slide .menu[data-title="Control"]:before {
-  content: "\e67a";
+    content: "\e67a";
 }
 
 .main .main-left .nav li.slide .menu[data-title="Asterisk"]:before {
-	content: "\e7dd";
+    content: "\e7dd";
+}
+
+.main > .main-left > .nav > li > a[data-title="Inital Setup"] {
+    padding: 0.675rem 0 0.675rem 2.5rem;
 }
 
 .main > .main-left > .nav > li > a[data-title="Inital Setup"]:before {
     content: "\e67e";
 }
 
+.main > .main-left > .nav > li > a[href="/cgi-bin/luci//admin/wizard"] {
+    padding: 0.675rem 0 0.675rem 2.5rem;
+}
+
 .main > .main-left > .nav > li > a[href="/cgi-bin/luci//admin/wizard"]:before {
     content: "\e67e";
+}
+
+.main > .main-left > .nav > li > a[data-title="iStore"] {
+    padding: 0.675rem 0 0.675rem 2.5rem;
 }
 
 .main > .main-left > .nav > li > a[data-title="iStore"]:before {
@@ -850,11 +862,12 @@ body[class*="node-"] > .main > .main-left > .nav > .slide > .menu.active::before
 	/* content: url(./icons/logout.svg); */
 }
 
-.main > .main-left > .nav > li:last-child a:hover,
+.main > .main-left > .nav > * a:hover,
 .main > .main-left > .nav > .slide > .menu:hover {
     background: var(--activeColor);
     color:white;
 }
+
 .main > .main-left > .nav > .slide:hover {
 	background: none;
 }
@@ -1882,7 +1895,7 @@ form.inline + form.inline,
 .cbi-progressbar::after {
     /* font-weight: bold; */
     /* font-family: monospace; */
-    font-size: 0.75rem !important;
+    font-size: 0.95rem !important;
     font-size-adjust: .38 !important;
     line-height: 1.5rem !important;
     position: absolute !important;
@@ -2126,7 +2139,7 @@ td > .ifacebadge,
 	min-width: 220px;
 	margin: .5em .25em 0 .25em;
 	padding: .5em;
-	background-color: #fff;
+	background-color: var(--sectionbgColor);
 }
 
 /* textarea */
@@ -2279,7 +2292,7 @@ td > .ifacebadge,
 	flex-direction: column;
 	min-width: 100px;
 	border-bottom: thin solid #ccc;
-	background-color: #f9f9f9;
+	background-color: var(--sectionbgColor);
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .4), 0 1px 2px rgba(0, 0, 0, .2);
 }
 

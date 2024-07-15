@@ -21,7 +21,7 @@ msgstr "收集数据中..."
 #: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:54
 #: applications/luci-app-ddns-go/root/usr/share/luci/menu.d/luci-app-ddns-go.json:3
 msgid "DDNS-Go"
-msgstr "DDNS-Go"
+msgstr "域名解析"
 
 #: applications/luci-app-ddns-go/htdocs/luci-static/resources/view/ddns-go.js:86
 msgid "Disable WebUI"

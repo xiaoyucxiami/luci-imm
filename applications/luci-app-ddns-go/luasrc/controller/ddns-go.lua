@@ -8,10 +8,10 @@ function index()
 		return
 	end
 
-	entry({"admin",  "services", "ddns-go"}, alias("admin", "services", "ddns-go", "setting"),_("DDNS-GO"), 58).dependent = true
-	entry({"admin", "services", "ddns-go", "setting"}, cbi("ddns-go"), _("Base Setting"), 20).leaf=true
-	entry({"admin",  "services", "ddns-go", "ddns-go"}, template("ddns-go"), _("DDNS-GO"), 30).leaf = true
-	entry({"admin", "services", "ddnsgo_status"}, call("act_status"))
+	entry({"admin",  "network", "ddns-go"}, alias("admin", "network", "ddns-go", "setting"),_("DDNS-GO"), 58).dependent = true
+	entry({"admin", "network", "ddns-go", "setting"}, cbi("ddns-go"), _("Base Setting"), 20).leaf=true
+	entry({"admin",  "network", "ddns-go", "ddns-go"}, template("ddns-go"), _("DDNS-GO"), 30).leaf = true
+	entry({"admin", "network", "ddnsgo_status"}, call("act_status"))
 end
 
 function act_status()

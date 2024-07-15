@@ -1,5 +1,5 @@
 msgid "KMS Server"
-msgstr "KMS 服务器"
+msgstr "系统激活"
 
 msgid "Basic Setting"
 msgstr "基本设置"

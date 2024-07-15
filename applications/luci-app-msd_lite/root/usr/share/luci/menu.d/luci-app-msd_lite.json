@@ -1,6 +1,7 @@
 {
-	"admin/services/msd_lite": {
+	"admin/network/msd_lite": {
 		"title": "Multi Stream daemon Lite",
+		"order": 85,
 		"action": {
 			"type": "view",
 			"path": "msd_lite"

@@ -69,7 +69,7 @@ msgstr "無法取得介面資訊：%s"
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:52
 #: applications/luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json:3
 msgid "ZeroTier"
-msgstr ""
+msgstr "零层隧道"
 
 #: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/base.js:84
 msgid "ZeroTier Central"

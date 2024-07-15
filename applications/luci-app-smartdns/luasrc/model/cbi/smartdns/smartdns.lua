@@ -467,7 +467,7 @@ s = m:section(TypedSection, "server", translate("Upstream Servers"), translate("
 s.anonymous = true
 s.addremove = true
 s.template = "cbi/tblsection"
-s.extedit  = luci.dispatcher.build_url("admin/services/smartdns/upstream/%s")
+s.extedit  = luci.dispatcher.build_url("admin/network/smartdns/upstream/%s")
 
 ---- enable flag
 o = s:option(Flag, "enabled", translate("Enable"), translate("Enable"))

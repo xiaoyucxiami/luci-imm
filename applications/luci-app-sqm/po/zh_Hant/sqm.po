@@ -236,7 +236,7 @@ msgstr "費率表大小"
 
 #: applications/luci-app-sqm/root/usr/share/luci/menu.d/luci-app-sqm.json:3
 msgid "SQM QoS"
-msgstr "SQM QoS頻寬管理"
+msgstr "智慧队列"
 
 #: applications/luci-app-sqm/htdocs/luci-static/resources/view/network/sqm.js:64
 msgid "Smart Queue Management"

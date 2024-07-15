@@ -1,7 +1,7 @@
 {
-	"admin/status/wireguard": {
+	"admin/vpn/wireguard": {
 		"title": "WireGuard",
-		"order": 92,
+		"order": 10,
 		"action": {
 			"type": "template",
 			"path": "wireguard"

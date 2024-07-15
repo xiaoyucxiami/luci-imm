@@ -5696,7 +5696,7 @@ msgstr "重绑定保护"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:20
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:126
 msgid "Reboot"
-msgstr "重启"
+msgstr "重启设备"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:153
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:162

@@ -11,11 +11,11 @@ function index()
 
 	local page
 
-	page = entry({"admin", "services", "upnp"}, cbi("upnp/upnp"), _("UPnP"))
+	page = entry({"admin", "network", "upnp"}, cbi("upnp/upnp"), _("UPnP"), 95)
 	page.dependent = true
 
-	entry({"admin", "services", "upnp", "status"}, call("act_status")).leaf = true
-	entry({"admin", "services", "upnp", "delete"}, post("act_delete")).leaf = true
+	entry({"admin", "network", "upnp", "status"}, call("act_status")).leaf = true
+	entry({"admin", "network", "upnp", "delete"}, post("act_delete")).leaf = true
 end
 
 function act_status()

@@ -1,6 +1,7 @@
 {
 	"admin/services/eqos": {
 		"title": "EQoS",
+		"order": 65,
 		"action": {
 			"type": "view",
 			"path": "eqos"
